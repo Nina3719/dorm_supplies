@@ -12,6 +12,16 @@
   isAdmin: Boolean,
   address: String,
   classYear: Number
+  orders: [{
+    items: [{
+      itemId: String,
+      quantity: Number,
+      price: Number
+    }]
+    purchaseDate: Date,
+    deliveredDate: Date,
+    isPaid: Boolean
+  }]
 }
 ```
 
